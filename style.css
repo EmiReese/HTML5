@@ -1,0 +1,117 @@
+/* blue - #418FBF green- #5DB85B grey- #F2F2F2 */
+
+body {
+  font-family: Arial;
+  display: flex;
+  width: 80%;
+  height: 80%;
+  flex-direction: row;
+  flex: flex-wrap;
+}
+
+.inputSection {
+  width: 40%;
+  margin: 5%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.firstName {
+  width: 45%;
+  height: 10%;
+  margin: 1%;
+}
+.lastName {
+  width: 45%;
+  height: 10%;
+  float: right;
+  margin: 1%;
+}
+
+.number {
+  width: 90%;
+  height: 10%;
+  margin: 1%;
+}
+
+.email {
+  width: 90%;
+  height: 10%;
+  margin: 1%;
+}
+
+.password {
+  width: 45%;
+  height: 10%;
+  margin: 1%;
+}
+
+.confirmPassword {
+  width: 45%;
+  height: 10%;
+  float: right;
+  margin: 1%;
+}
+
+.checkbox {
+  font-size: bold;
+  margin: 0%;
+}
+
+label {
+  font-weight: bold;
+  margin: 0;
+  width: 3%;
+}
+
+.terms {
+  font-size: 0.6rem;
+  flex-direction: columns;
+}
+
+button {
+  background-color: #418fbf;
+  color: white;
+  font-size: 0.6rem;
+  border-radius: 10%;
+  border: none;
+}
+
+button a {
+  font-color: white;
+  text-decoration: none;
+}
+
+button a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.register {
+  background-color: #418fbf;
+  color: white;
+  border-radius: 10%;
+  border: none;
+  padding: 3% 5%;
+  width: 47%;
+  font-size: 1rem;
+}
+
+.signIn {
+  background-color: #5db85b;
+  color: white;
+  border-radius: 10%;
+  border: none;
+  padding: 3% 5%;
+  width: 47%;
+  float: right;
+  font-size: 1rem;
+}
+
+@media screen (max-width: 1250px) {
+  firstname: ;
+}
